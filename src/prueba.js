@@ -1,4 +1,4 @@
-const axios = require('axios');
+/*const axios = require('axios');
 const mongoose = require('mongoose');
 
 // Conectar a la base de datos MongoDB
@@ -44,4 +44,4 @@ async function fetchDataAndSaveToMongo() {
 }
 
 // Ejecutar la función para obtener datos y guardarlos
-fetchDataAndSaveToMongo();
+fetchDataAndSaveToMongo();*/
