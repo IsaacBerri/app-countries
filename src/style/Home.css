@@ -1,0 +1,69 @@
+.containerHeader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.containerHeader span {
+    font-size: 70px;
+}
+
+.containerHeader h1 {
+    width: 400px;
+    margin: 50px;
+}
+
+.buttonsHeader {
+    display: flex;
+    gap: 40px;
+}
+
+.buttonsHeader * {
+    color: white;
+}
+
+.buttonsHeader #btn1{
+    background-color: #778DA9;
+}
+
+.buttonsHeader  #btn2{
+    background-color: black;
+}
+
+.containerIntroduction {
+    width: auto;
+    height: auto;
+    background-color: #415A77;
+    color: white;
+    padding: 7%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerIntroduction picture{
+    width: 350px;
+    height: auto;
+    margin-left: 80px;
+}
+
+.containerIntroduction picture img {
+    width: 100%;
+    height: auto;
+}
+
+.containerIntroduction h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.sectionInfo {
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
