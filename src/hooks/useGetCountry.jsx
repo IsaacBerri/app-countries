@@ -30,7 +30,8 @@ export function useGetCountry() {
       }),
     })
       .then((res) => res.json())
-      .then((data) => setCountry(data.data.country));
+      .then((data) => setCountry(data.data.country))
+      .catch(error => console.log(error))
   }, [code]);
 
   return {
