@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Home from "../pages/Home";
 import "../style/App.css";
@@ -8,6 +9,7 @@ function App() {
     <main className="container">
       <Navbar/>
       <Home/>
+      <Footer/>
     </main>
   );
 }

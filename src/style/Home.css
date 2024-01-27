@@ -1,69 +1,110 @@
 .containerHeader {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .containerHeader span {
-    font-size: 70px;
+  font-size: 70px;
 }
 
 .containerHeader h1 {
-    width: 400px;
-    margin: 50px;
+  width: 400px;
+  margin: 50px;
 }
 
 .buttonsHeader {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
 .buttonsHeader * {
-    color: white;
+  color: white;
 }
 
-.buttonsHeader #btn1{
-    background-color: #778DA9;
+.buttonsHeader #btn1 {
+  background-color: #778da9;
 }
 
-.buttonsHeader  #btn2{
-    background-color: black;
+.buttonsHeader #btn2 {
+  background-color: black;
 }
 
 .containerIntroduction {
-    width: auto;
-    height: auto;
-    background-color: #415A77;
-    color: white;
-    padding: 7%;
-    display: flex;
-    flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  background-color: #415a77;
+  color: white;
+  padding: 7%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.containerIntroduction picture{
-    width: 350px;
-    height: auto;
-    margin-left: 80px;
+.containerIntroduction picture {
+  width: 350px;
+  height: auto;
+  margin-left: 80px;
 }
 
 .containerIntroduction picture img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .containerIntroduction h2 {
-    font-size: 50px;
-    margin-bottom: 50px;
+  font-size: 50px;
+  margin-bottom: 50px;
 }
 
 .sectionInfo {
-    width: 60%;
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  width: 60%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 17px;
+}
+
+.containerCommonQuestions {
+  width: auto;
+  background-color: #0d1b2a;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.containerCommonQuestions h3 {
+  color: white;
+  font-size: 38px;
+}
+
+.sectionQuestions {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Archivo', sans-serif;
+}
+
+.sectionQuestions .questions {
+  width: 300px;
+}
+
+.questions {
+  color: white;
+}
+
+.questions h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.questions p {
+    font-size: 13px;
 }
