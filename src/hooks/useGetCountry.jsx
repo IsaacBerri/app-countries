@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export function useGetCountry() {
-  const [country, setCountry] = useState({});
+  const [country, setCountry] = useState([]);
   const [code, setCode] = useState("");
   useEffect(() => {
     fetch("https://countries.trevorblades.com/", {
@@ -9,29 +9,20 @@ export function useGetCountry() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         query: `
-              query Country($code: ID!) {
-                country(code: $code) {
-                  code
-                  name
-                  capital
-                  continent {
-                    code
-                    name
-                  }
-                  currency
-                  native
-                  phone
-                  languages {
-                    name
-                  }
-                }
-              }`,
-        variables: { code: code },
+        query Countries {
+          countries {
+            code
+            name
+            capital
+          }
+        }
+        `,
+        // variables: { code: code },
       }),
     })
       .then((res) => res.json())
-      .then((data) => setCountry(data.data.country))
-      .catch(error => console.log(error))
+      .then((data) => setCountry(data.data.countries))
+      .catch((error) => console.log(error));
   }, [code]);
 
   return {
@@ -39,3 +30,21 @@ export function useGetCountry() {
     setCode,
   };
 }
+
+// query Country($code: ID!) {
+//   country(code: $code) {
+//     code
+//     name
+//     capital
+//     continent {
+//       code
+//       name
+//     }
+//     currency
+//     native
+//     phone
+//     languages {
+//       name
+//     }
+//   }
+// }

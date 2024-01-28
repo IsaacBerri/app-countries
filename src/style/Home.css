@@ -70,6 +70,68 @@
   font-size: 17px;
 }
 
+
+.sectionCountries {
+  width: auto;
+  height: auto;
+  background-color: #1B263B;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionCountries #introduction {
+    width: 50%;
+    text-align: center;
+    font-size: 38px;
+    color: white;
+}
+
+.sectionCountries #introduction span {
+    color: #778da9;
+}
+
+.containerSearch {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 50px;
+}
+
+.containerSearch input {
+    width: 25%;
+    padding: 15px;
+    background-color: #778da9;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.containerSearch input::placeholder {
+    color: white;
+}
+
+.containerSearch input:focus {
+    outline: none;
+}
+
+.containerCountries {
+    width: auto;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
 .containerCommonQuestions {
   width: auto;
   background-color: #0d1b2a;
