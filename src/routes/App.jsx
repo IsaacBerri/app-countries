@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Home from "../pages/Home";
 import CreateCountry from "../pages/CreateCountry";
@@ -8,9 +9,9 @@ function App() {
   return (
     <main className="container">
       <Navbar/>
-      {/*<Home/>*/}
-        <CreateCountry />
-     
+      <Home/>
+      <Footer/>
+      <CreateCountry />
     </main>
   );
 }
