@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Home from "../pages/Home";
+import CreateCountry from "../pages/CreateCountry";
 import "../style/App.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       <Home/>
       <Footer/>
+      <CreateCountry />
     </main>
   );
 }
