@@ -1,6 +1,10 @@
+
+
 const ImputFileCreate = () => {
   return (
+   
     <section className="sectionInput">
+       <div className="blackBar"></div>
       <h2>Imput Fields</h2>
       <p>
         Bring your own world to life: Design, Build and Register your Unique
@@ -12,7 +16,8 @@ const ImputFileCreate = () => {
         <input type="text" placeholder="Name" disabled />
         <input type="text" placeholder="Capital" disabled/>
         <input type="text" placeholder="Continet" disabled/>
-        <input type="text" placeholder="Currecy" disabled/>
+        <input type="text" placeholder="Currency" disabled/>
+        
       </section>
       <div className="buttonCreate">
         <button>Clear Fields</button>

@@ -7,9 +7,10 @@ function App() {
 
   return (
     <main className="container">
-      {/*<Navbar/>*/}
+      <Navbar/>
       {/*<Home/>*/}
-      <CreateCountry/>
+        <CreateCountry />
+     
     </main>
   );
 }
