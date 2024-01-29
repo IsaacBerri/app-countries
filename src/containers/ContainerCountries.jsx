@@ -7,7 +7,7 @@ const ContainerCountries = () => {
   const [filter, setFilter] = useState("");
 
   return (
-    <section className="sectionCountries">
+    <section className="sectionCountries" id="searchCountry">
       <h3 id="introduction">
         Start exploring and discover what the world has to show you, look for
         your <span>next destination.</span>
