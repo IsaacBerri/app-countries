@@ -14,6 +14,10 @@ export function useGetCountry() {
             code
             name
             capital
+            continent {
+              code
+              name
+            }
           }
         }
         `,

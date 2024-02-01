@@ -8,7 +8,7 @@ const HeaderHome = () => {
       <h1>Explore the World, One Country at a Time</h1>
       <div className='buttonsHeader'>
         <a href="#introduction"><button id='btn1'>Start Exploring</button></a>
-        <button id='btn2'>Search Countries</button>
+        <a href="#searchCountry"><button id='btn2'>Search Countries</button></a>
       </div>
     </header>
   )
